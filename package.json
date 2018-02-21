@@ -1,0 +1,42 @@
+{
+  "name": "webdriverio-chrome-audio-example",
+  "version": "1.0.0",
+  "description": "An example of how to test audio in chrome using webdriver.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aberonni/webdriverio-chrome-audio-example.git"
+  },
+  "keywords": [
+    "webdriver.io",
+    "wdio",
+    "e2e",
+    "integration",
+    "test",
+    "audio"
+  ],
+  "author": "Domenico Gemoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aberonni/webdriverio-chrome-audio-example/issues"
+  },
+  "homepage": "https://github.com/aberonni/webdriverio-chrome-audio-example#readme",
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "chromedriver": "^2.35.0",
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.3",
+    "webdriverio": "^4.10.2",
+    "zip-local": "^0.3.4"
+  }
+}
